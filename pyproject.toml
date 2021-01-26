@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mini-bert"
+version = "0.1.0"
+description = ""
+authors = ["Gorjan Radevski <gorjanradevski@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.7.1"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
