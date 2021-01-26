@@ -10,6 +10,8 @@ torch = "^1.7.1"
 jupyter = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
+nb-black = "^1.0.7"
+black = {version = "^20.8b1", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
